@@ -1,6 +1,6 @@
 ## introduction
 
-hello and I'm yottii.<br>
-I made to detection the Jailbreak on iOS.<br>
-you can use that it is open Xcode and build<br>
+I made to detection the Jailbreak on iOS App.<br>
+you can use the xcode to open and build.<br>
 
+it's simple Jailbreak detectio application.<br>
