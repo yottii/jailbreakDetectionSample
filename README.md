@@ -5,3 +5,8 @@ I will be making iOS application.<br>
 
 ### chat application use with 
  -[ChatServerCoop](ChatServerCoop/README.md)
+
+## JailbreakDetection<br>
+this App can detect Jaibreak.<br>
+I made two type application that is made by Objective-C or Swift.<br>
+I am not bad at Objective-C...
