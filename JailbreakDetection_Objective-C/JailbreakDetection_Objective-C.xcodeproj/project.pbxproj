@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31E03653223248E300ADD49A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E03652223248E300ADD49A /* AppDelegate.m */; };
+		31E03656223248E300ADD49A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E03655223248E300ADD49A /* ViewController.m */; };
+		31E03659223248E300ADD49A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E03657223248E300ADD49A /* Main.storyboard */; };
+		31E0365B223248E400ADD49A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E0365A223248E400ADD49A /* Assets.xcassets */; };
+		31E0365E223248E400ADD49A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E0365C223248E400ADD49A /* LaunchScreen.storyboard */; };
+		31E03661223248E400ADD49A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E03660223248E400ADD49A /* main.m */; };
+		31E0366B223248E400ADD49A /* JailbreakDetection_Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E0366A223248E400ADD49A /* JailbreakDetection_Objective_CTests.m */; };
+		31E03676223248E400ADD49A /* JailbreakDetection_Objective_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E03675223248E400ADD49A /* JailbreakDetection_Objective_CUITests.m */; };
+		31E0368A2232522D00ADD49A /* isJB.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E036892232522D00ADD49A /* isJB.m */; };
+		31E0368B2232522D00ADD49A /* isJB.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E036892232522D00ADD49A /* isJB.m */; };
+		31E0368C2232522D00ADD49A /* isJB.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E036892232522D00ADD49A /* isJB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31E03667223248E400ADD49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31E03646223248E300ADD49A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E0364D223248E300ADD49A;
+			remoteInfo = "JailbreakDetection_Objective-C";
+		};
+		31E03672223248E400ADD49A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31E03646223248E300ADD49A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E0364D223248E300ADD49A;
+			remoteInfo = "JailbreakDetection_Objective-C";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31E0364E223248E300ADD49A /* JailbreakDetection_Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JailbreakDetection_Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E03651223248E300ADD49A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31E03652223248E300ADD49A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31E03654223248E300ADD49A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31E03655223248E300ADD49A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31E03658223248E300ADD49A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31E0365A223248E400ADD49A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31E0365D223248E400ADD49A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31E0365F223248E400ADD49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E03660223248E400ADD49A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31E03666223248E400ADD49A /* JailbreakDetection_Objective-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JailbreakDetection_Objective-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E0366A223248E400ADD49A /* JailbreakDetection_Objective_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakDetection_Objective_CTests.m; sourceTree = "<group>"; };
+		31E0366C223248E400ADD49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E03671223248E400ADD49A /* JailbreakDetection_Objective-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JailbreakDetection_Objective-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E03675223248E400ADD49A /* JailbreakDetection_Objective_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakDetection_Objective_CUITests.m; sourceTree = "<group>"; };
+		31E03677223248E400ADD49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E036882232522D00ADD49A /* isJB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isJB.h; sourceTree = "<group>"; };
+		31E036892232522D00ADD49A /* isJB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = isJB.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31E0364B223248E300ADD49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E03663223248E400ADD49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E0366E223248E400ADD49A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31E03645223248E300ADD49A = {
+			isa = PBXGroup;
+			children = (
+				31E03650223248E300ADD49A /* JailbreakDetection_Objective-C */,
+				31E03669223248E400ADD49A /* JailbreakDetection_Objective-CTests */,
+				31E03674223248E400ADD49A /* JailbreakDetection_Objective-CUITests */,
+				31E0364F223248E300ADD49A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31E0364F223248E300ADD49A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31E0364E223248E300ADD49A /* JailbreakDetection_Objective-C.app */,
+				31E03666223248E400ADD49A /* JailbreakDetection_Objective-CTests.xctest */,
+				31E03671223248E400ADD49A /* JailbreakDetection_Objective-CUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31E03650223248E300ADD49A /* JailbreakDetection_Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				31E03651223248E300ADD49A /* AppDelegate.h */,
+				31E03652223248E300ADD49A /* AppDelegate.m */,
+				31E03654223248E300ADD49A /* ViewController.h */,
+				31E03655223248E300ADD49A /* ViewController.m */,
+				31E03657223248E300ADD49A /* Main.storyboard */,
+				31E0365A223248E400ADD49A /* Assets.xcassets */,
+				31E0365C223248E400ADD49A /* LaunchScreen.storyboard */,
+				31E0365F223248E400ADD49A /* Info.plist */,
+				31E03660223248E400ADD49A /* main.m */,
+				31E036882232522D00ADD49A /* isJB.h */,
+				31E036892232522D00ADD49A /* isJB.m */,
+			);
+			path = "JailbreakDetection_Objective-C";
+			sourceTree = "<group>";
+		};
+		31E03669223248E400ADD49A /* JailbreakDetection_Objective-CTests */ = {
+			isa = PBXGroup;
+			children = (
+				31E0366A223248E400ADD49A /* JailbreakDetection_Objective_CTests.m */,
+				31E0366C223248E400ADD49A /* Info.plist */,
+			);
+			path = "JailbreakDetection_Objective-CTests";
+			sourceTree = "<group>";
+		};
+		31E03674223248E400ADD49A /* JailbreakDetection_Objective-CUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31E03675223248E400ADD49A /* JailbreakDetection_Objective_CUITests.m */,
+				31E03677223248E400ADD49A /* Info.plist */,
+			);
+			path = "JailbreakDetection_Objective-CUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31E0364D223248E300ADD49A /* JailbreakDetection_Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E0367A223248E400ADD49A /* Build configuration list for PBXNativeTarget "JailbreakDetection_Objective-C" */;
+			buildPhases = (
+				31E0364A223248E300ADD49A /* Sources */,
+				31E0364B223248E300ADD49A /* Frameworks */,
+				31E0364C223248E300ADD49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JailbreakDetection_Objective-C";
+			productName = "JailbreakDetection_Objective-C";
+			productReference = 31E0364E223248E300ADD49A /* JailbreakDetection_Objective-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31E03665223248E400ADD49A /* JailbreakDetection_Objective-CTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E0367D223248E400ADD49A /* Build configuration list for PBXNativeTarget "JailbreakDetection_Objective-CTests" */;
+			buildPhases = (
+				31E03662223248E400ADD49A /* Sources */,
+				31E03663223248E400ADD49A /* Frameworks */,
+				31E03664223248E400ADD49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31E03668223248E400ADD49A /* PBXTargetDependency */,
+			);
+			name = "JailbreakDetection_Objective-CTests";
+			productName = "JailbreakDetection_Objective-CTests";
+			productReference = 31E03666223248E400ADD49A /* JailbreakDetection_Objective-CTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31E03670223248E400ADD49A /* JailbreakDetection_Objective-CUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E03680223248E400ADD49A /* Build configuration list for PBXNativeTarget "JailbreakDetection_Objective-CUITests" */;
+			buildPhases = (
+				31E0366D223248E400ADD49A /* Sources */,
+				31E0366E223248E400ADD49A /* Frameworks */,
+				31E0366F223248E400ADD49A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31E03673223248E400ADD49A /* PBXTargetDependency */,
+			);
+			name = "JailbreakDetection_Objective-CUITests";
+			productName = "JailbreakDetection_Objective-CUITests";
+			productReference = 31E03671223248E400ADD49A /* JailbreakDetection_Objective-CUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31E03646223248E300ADD49A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yotti;
+				TargetAttributes = {
+					31E0364D223248E300ADD49A = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					31E03665223248E400ADD49A = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31E0364D223248E300ADD49A;
+					};
+					31E03670223248E400ADD49A = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31E0364D223248E300ADD49A;
+					};
+				};
+			};
+			buildConfigurationList = 31E03649223248E300ADD49A /* Build configuration list for PBXProject "JailbreakDetection_Objective-C" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31E03645223248E300ADD49A;
+			productRefGroup = 31E0364F223248E300ADD49A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31E0364D223248E300ADD49A /* JailbreakDetection_Objective-C */,
+				31E03665223248E400ADD49A /* JailbreakDetection_Objective-CTests */,
+				31E03670223248E400ADD49A /* JailbreakDetection_Objective-CUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31E0364C223248E300ADD49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E0365E223248E400ADD49A /* LaunchScreen.storyboard in Resources */,
+				31E0365B223248E400ADD49A /* Assets.xcassets in Resources */,
+				31E03659223248E300ADD49A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E03664223248E400ADD49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E0366F223248E400ADD49A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31E0364A223248E300ADD49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E0368A2232522D00ADD49A /* isJB.m in Sources */,
+				31E03656223248E300ADD49A /* ViewController.m in Sources */,
+				31E03661223248E400ADD49A /* main.m in Sources */,
+				31E03653223248E300ADD49A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E03662223248E400ADD49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E0366B223248E400ADD49A /* JailbreakDetection_Objective_CTests.m in Sources */,
+				31E0368B2232522D00ADD49A /* isJB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E0366D223248E400ADD49A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E03676223248E400ADD49A /* JailbreakDetection_Objective_CUITests.m in Sources */,
+				31E0368C2232522D00ADD49A /* isJB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31E03668223248E400ADD49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E0364D223248E300ADD49A /* JailbreakDetection_Objective-C */;
+			targetProxy = 31E03667223248E400ADD49A /* PBXContainerItemProxy */;
+		};
+		31E03673223248E400ADD49A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E0364D223248E300ADD49A /* JailbreakDetection_Objective-C */;
+			targetProxy = 31E03672223248E400ADD49A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31E03657223248E300ADD49A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E03658223248E300ADD49A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31E0365C223248E400ADD49A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E0365D223248E400ADD49A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31E03678223248E400ADD49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		31E03679223248E400ADD49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31E0367B223248E400ADD49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KAV8HB67X;
+				INFOPLIST_FILE = "JailbreakDetection_Objective-C/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "line.JailbreakDetection-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31E0367C223248E400ADD49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KAV8HB67X;
+				INFOPLIST_FILE = "JailbreakDetection_Objective-C/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "line.JailbreakDetection-Objective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31E0367E223248E400ADD49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JailbreakDetection_Objective-CTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "line.JailbreakDetection-Objective-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JailbreakDetection_Objective-C.app/JailbreakDetection_Objective-C";
+			};
+			name = Debug;
+		};
+		31E0367F223248E400ADD49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JailbreakDetection_Objective-CTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "line.JailbreakDetection-Objective-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JailbreakDetection_Objective-C.app/JailbreakDetection_Objective-C";
+			};
+			name = Release;
+		};
+		31E03681223248E400ADD49A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JailbreakDetection_Objective-CUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "line.JailbreakDetection-Objective-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JailbreakDetection_Objective-C";
+			};
+			name = Debug;
+		};
+		31E03682223248E400ADD49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "JailbreakDetection_Objective-CUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "line.JailbreakDetection-Objective-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JailbreakDetection_Objective-C";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31E03649223248E300ADD49A /* Build configuration list for PBXProject "JailbreakDetection_Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E03678223248E400ADD49A /* Debug */,
+				31E03679223248E400ADD49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E0367A223248E400ADD49A /* Build configuration list for PBXNativeTarget "JailbreakDetection_Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E0367B223248E400ADD49A /* Debug */,
+				31E0367C223248E400ADD49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E0367D223248E400ADD49A /* Build configuration list for PBXNativeTarget "JailbreakDetection_Objective-CTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E0367E223248E400ADD49A /* Debug */,
+				31E0367F223248E400ADD49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E03680223248E400ADD49A /* Build configuration list for PBXNativeTarget "JailbreakDetection_Objective-CUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E03681223248E400ADD49A /* Debug */,
+				31E03682223248E400ADD49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31E03646223248E300ADD49A /* Project object */;
+}
