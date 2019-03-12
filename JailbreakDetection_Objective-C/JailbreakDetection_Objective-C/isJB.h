@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface isJB : NSObject
+@interface JailbreakDetection : NSObject
 +(BOOL)isJailbreak;
 @end
 

@@ -6,8 +6,11 @@
 //  Copyright © 2019 yotti. All rights reserved.
 //
 
-#ifndef JailbreakDetection_h
-#define JailbreakDetection_h
+#import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
 
-#endif /* JailbreakDetection_h */
+@interface JailbreakDetection : NSObject
++(BOOL)isJailbreak;@end
+
+NS_ASSUME_NONNULL_END

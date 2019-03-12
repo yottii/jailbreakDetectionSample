@@ -15,9 +15,9 @@
 		31E03661223248E400ADD49A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E03660223248E400ADD49A /* main.m */; };
 		31E0366B223248E400ADD49A /* JailbreakDetection_Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E0366A223248E400ADD49A /* JailbreakDetection_Objective_CTests.m */; };
 		31E03676223248E400ADD49A /* JailbreakDetection_Objective_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E03675223248E400ADD49A /* JailbreakDetection_Objective_CUITests.m */; };
-		31E0368A2232522D00ADD49A /* isJB.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E036892232522D00ADD49A /* isJB.m */; };
-		31E0368B2232522D00ADD49A /* isJB.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E036892232522D00ADD49A /* isJB.m */; };
-		31E0368C2232522D00ADD49A /* isJB.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E036892232522D00ADD49A /* isJB.m */; };
+		31E0368F2232780800ADD49A /* JailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E0368E2232780800ADD49A /* JailbreakDetection.m */; };
+		31E036902232780800ADD49A /* JailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E0368E2232780800ADD49A /* JailbreakDetection.m */; };
+		31E036912232780800ADD49A /* JailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E0368E2232780800ADD49A /* JailbreakDetection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		31E03671223248E400ADD49A /* JailbreakDetection_Objective-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JailbreakDetection_Objective-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E03675223248E400ADD49A /* JailbreakDetection_Objective_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakDetection_Objective_CUITests.m; sourceTree = "<group>"; };
 		31E03677223248E400ADD49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31E036882232522D00ADD49A /* isJB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isJB.h; sourceTree = "<group>"; };
-		31E036892232522D00ADD49A /* isJB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = isJB.m; sourceTree = "<group>"; };
+		31E0368D2232780800ADD49A /* JailbreakDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JailbreakDetection.h; sourceTree = "<group>"; };
+		31E0368E2232780800ADD49A /* JailbreakDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailbreakDetection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				31E0365C223248E400ADD49A /* LaunchScreen.storyboard */,
 				31E0365F223248E400ADD49A /* Info.plist */,
 				31E03660223248E400ADD49A /* main.m */,
-				31E036882232522D00ADD49A /* isJB.h */,
-				31E036892232522D00ADD49A /* isJB.m */,
+				31E0368D2232780800ADD49A /* JailbreakDetection.h */,
+				31E0368E2232780800ADD49A /* JailbreakDetection.m */,
 			);
 			path = "JailbreakDetection_Objective-C";
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E0368A2232522D00ADD49A /* isJB.m in Sources */,
+				31E0368F2232780800ADD49A /* JailbreakDetection.m in Sources */,
 				31E03656223248E300ADD49A /* ViewController.m in Sources */,
 				31E03661223248E400ADD49A /* main.m in Sources */,
 				31E03653223248E300ADD49A /* AppDelegate.m in Sources */,
@@ -283,8 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E036902232780800ADD49A /* JailbreakDetection.m in Sources */,
 				31E0366B223248E400ADD49A /* JailbreakDetection_Objective_CTests.m in Sources */,
-				31E0368B2232522D00ADD49A /* isJB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E036912232780800ADD49A /* JailbreakDetection.m in Sources */,
 				31E03676223248E400ADD49A /* JailbreakDetection_Objective_CUITests.m in Sources */,
-				31E0368C2232522D00ADD49A /* isJB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
