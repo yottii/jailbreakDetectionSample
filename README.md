@@ -10,3 +10,4 @@ I will be making iOS application.<br>
 this App can detect Jaibreak.<br>
 I made two type application that is made by Objective-C or Swift.<br>
 I can't use at Objective-C a little...
+tt
